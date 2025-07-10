@@ -1,0 +1,44 @@
+body {
+    font: 16px Arial, sans-serif;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+}
+
+.reseaux {
+    display: flex;
+    gap: 30px;
+}
+
+.reseaux a {
+    color: #ffffff;
+    font-size: 2.5em;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.reseaux a:hover {
+    color: #40ffc3; /* rose flashy */
+    transform: scale(1.2);
+}
