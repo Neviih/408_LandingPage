@@ -39,6 +39,6 @@ h1 {
 }
 
 .reseaux a:hover {
-    color: #40ffc3; /* rose flashy */
+    color: #40ffc3;
     transform: scale(1.2);
 }
